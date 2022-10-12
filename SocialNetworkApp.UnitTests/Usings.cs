@@ -1,0 +1,15 @@
+global using Xunit;
+global using SocialNetworkApp.API.Controllers;
+global using SocialNetworkApp.API.Models;
+global using System.Collections.Generic;
+global using Microsoft.AspNetCore.Mvc;
+global using FluentAssertions;
+global using System.Threading.Tasks;
+global using SocialNetworkApp.API.Service;
+global using Moq;
+global using SocialNetworkApp.UnitTests.Fixture;
+global using System.Net.Http;
+global using Newtonsoft.Json;
+global using Moq.Protected;
+global using SocialNetworkApp.UnitTests.Helpers;
+global using Microsoft.Extensions.Options;
